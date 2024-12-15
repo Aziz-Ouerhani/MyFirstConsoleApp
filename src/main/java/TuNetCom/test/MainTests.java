@@ -30,6 +30,33 @@ public class MainTests {
                                 indiceProduit ++;
                                 break;
                             case 2:
+                                System.out.println("veullier entrer la references du produits à modifier");
+                                String referenceAModifier = sc.next();
+                                for (int i = 0; indiceProduit > i; i ++) {
+                                    if (produitList[i].getRefe().equals(referenceAModifier)){
+                                        System.out.print("Nom : ");
+                                        String nom = sc.next();
+                                        System.out.print("Quantité : ");
+                                        int quantite = sc.nextInt();
+                                        System.out.print("Quantité limite : ");
+                                        int quantiteLimite = sc.nextInt();
+                                        System.out.print("Remise (%) : ");
+                                        double remise = sc.nextDouble();
+                                        System.out.print("Remise d'achat (%) : ");
+                                        double remiseAchat = sc.nextDouble();
+                                        System.out.print("TVA (%) : ");
+                                        double tva = sc.nextDouble();
+                                        System.out.print("Prix : ");
+                                        double prix = sc.nextDouble();
+                                        System.out.print("Prix d'achat : ");
+                                        double prixAchat = sc.nextDouble();
+                                        System.out.print("Visibilité (true/false) : ");
+                                        boolean visibilite = sc.nextBoolean();
+                                        produitList[i].setNom(nom);
+                                        produitList[i].setRemise(remise);
+                                        produitList[i].setPrix(prix);
+                                    }
+                                }
                                 break;
                             case 3:
                                 System.out.println("veullier entrer la references du produits a suprimer");
