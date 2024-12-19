@@ -5,33 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64f075db-8f88-452b-9824-5a1562510edc" name="Changes" comment="First commit of JavaFX application for BestErp">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/AvoirFinancierFournisseurs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/AvoirFournisseur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Avoirs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/BonDeLivraison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/BonDeReception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Commandes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Devis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/EcheanceDesFournisseurs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Facture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/FactureAvoirFournisseur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/FactureFournisseurs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Fournisseur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/LigneAvoirFournisseur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/LigneAvoirs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/LigneBL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/LigneBonReception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/LigneCommande.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/LigneDevis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/MgrationHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Produit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Systeme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Console/ClientConsoleMethodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Console/ProduitConsoleMethode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Tier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/AvoirFinancierFournisseurs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/AvoirFinancierFournisseurs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/AvoirFournisseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/AvoirFournisseur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Avoirs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Avoirs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/BonDeLivraison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/BonDeLivraison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/BonDeReception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/BonDeReception.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Commandes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Commandes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Devis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Devis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/EcheanceDesFournisseurs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/EcheanceDesFournisseurs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Facture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Facture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/FactureAvoirFournisseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/FactureAvoirFournisseur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/FactureFournisseurs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/FactureFournisseurs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Fournisseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Fournisseur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/LigneAvoirFournisseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/LigneAvoirFournisseur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/LigneAvoirs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/LigneAvoirs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/LigneBL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/LigneBL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/LigneBonReception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/LigneBonReception.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/LigneCommande.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/LigneCommande.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/LigneDevis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/LigneDevis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/MgrationHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/MgrationHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Produit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/BestErp/Domain/Produit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TuNetCom/test/MainTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TuNetCom/test/MainTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/besterp/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/besterp/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,28 +71,37 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2pGWdJ99oI1KydMNYA97P0woRTJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainTests.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Workspaces/TunNetCom/TunNetCom-BestErp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "Application.MainTests.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Workspaces/TunNetCom/TunNetCom-BestErp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="TuNetCom.BestErp.Console.ClientConsoleMethodes" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="TunNetCom.BestErp" />

@@ -1,5 +1,5 @@
 package TuNetCom.BestErp.Domain;
-public class LigneCommande {
+public final class LigneCommande {
     private int idLigne;
     private int numCommande;
     private String refProduit;

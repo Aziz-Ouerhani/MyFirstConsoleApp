@@ -1,7 +1,7 @@
 package TuNetCom.BestErp.Domain;
 import java.util.Date;
 
-public class EcheanceDesFournisseurs {
+public final class EcheanceDesFournisseurs {
     private int id;
     private Date dateEcheance;
     private long numCheque;

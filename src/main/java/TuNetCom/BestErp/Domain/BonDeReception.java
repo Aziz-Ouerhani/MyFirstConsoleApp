@@ -1,8 +1,7 @@
 package TuNetCom.BestErp.Domain;
 
 import java.sql.Date;
-public class BonDeReception {
-    private int num;
+public final class BonDeReception extends Document {
     private long numBonFournisseur;
     private Date dateLivraison;
     private int idFournisseur;
@@ -18,15 +17,6 @@ public class BonDeReception {
         this.date = date;
         this.numFactureFournisseur = numFactureFournisseur;
     }
-
-    public int getNum() {
-        return num;
-    }
-
-    public void setNum(int num) {
-        this.num = num;
-    }
-
     public long getNumBonFournisseur() {
         return numBonFournisseur;
     }

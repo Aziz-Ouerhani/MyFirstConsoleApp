@@ -1,6 +1,6 @@
 package TuNetCom.BestErp.Domain;
 
-public class MgrationHistory {
+public final class MgrationHistory {
     private String migrationId ;
     private String contextKey ;
     private byte model;

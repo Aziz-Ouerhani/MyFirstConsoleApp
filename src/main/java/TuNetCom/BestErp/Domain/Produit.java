@@ -1,5 +1,5 @@
 package TuNetCom.BestErp.Domain;
-public class Produit {
+public final class Produit {
     private String refe;
     private String nom;
     private int qte;
@@ -103,6 +103,16 @@ public class Produit {
 
     public void setVisibilite(boolean visibilite) {
         this.visibilite = visibilite;
+    }
+
+    public int getPackagingNumber() {
+        int stayek = qte / 6 ;
+        return stayek;
+    }
+
+    public int getPackagingNumber(int packagingSize) {
+        int stayek = qte / packagingSize;
+        return stayek;
     }
 }
 

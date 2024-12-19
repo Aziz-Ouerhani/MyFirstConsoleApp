@@ -2,8 +2,7 @@ package TuNetCom.BestErp.Domain;
 import java.util.Date;
 import java.math.BigDecimal;
 
-public class Devis {
-    private int num;
+public final class Devis extends Document {
     private int idClient;
     private Date date;
     private BigDecimal totHTTva;
@@ -18,15 +17,6 @@ public class Devis {
         this.totTva = totTva;
         this.totTtc = totTtc;
     }
-
-    public int getNum() {
-        return num;
-    }
-
-    public void setNum(int num) {
-        this.num = num;
-    }
-
     public int getIdClient() {
         return idClient;
     }

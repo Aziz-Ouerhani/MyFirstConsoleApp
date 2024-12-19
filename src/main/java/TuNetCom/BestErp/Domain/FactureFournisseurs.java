@@ -2,8 +2,7 @@ package TuNetCom.BestErp.Domain;
 
 import java.util.Date;
 
-public class FactureFournisseurs {
-    private int num;
+public final class FactureFournisseurs extends Document {
     private int idFournisseur;
     private boolean paye;
     private int numFactureFournisseur;
@@ -18,14 +17,6 @@ public class FactureFournisseurs {
         this.numFactureFournisseur = numFactureFournisseur;
         this.dateFacturationFournisseur = dateFacturationFournisseur;
         this.date = date;
-    }
-
-    public int getNum() {
-        return num;
-    }
-
-    public void setNum(int num) {
-        this.num = num;
     }
 
     public int getIdFournisseur() {

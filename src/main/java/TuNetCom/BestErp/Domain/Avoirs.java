@@ -2,8 +2,7 @@ package TuNetCom.BestErp.Domain;
 
 import java.sql.Date;
 
-public class Avoirs {
-    private int num ;
+public final class Avoirs extends Document {
     private Date date ;
     private int clientId ;
 
@@ -14,13 +13,6 @@ public class Avoirs {
     }
 
     // Getters et setters
-    public int getNum() {
-        return num;
-    }
-
-    public void setNum(int num) {
-        this.num = num;
-    }
 
     public Date getDate() {
         return date;

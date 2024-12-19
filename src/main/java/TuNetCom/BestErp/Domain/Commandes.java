@@ -1,42 +1,35 @@
 package TuNetCom.BestErp.Domain;
-import java.util.Date;
 
-public class Commandes {
-    public int num;
-    public Date date;
+public final class Commandes extends Document {
+    public String date;
     public int fournisseurId;
 
-    public Commandes(int num, Date date, Integer fournisseurId) {
+    public Commandes(int num, String date, int fournisseurId) {
         this.num = num;
         this.date = date;
         this.fournisseurId = fournisseurId;
     }
-    public int getNum() {
-        return num;
+
+    public Commandes(String date, int fournisseurId) {
+        super();
     }
 
-
-    public void setNum(int num) {
-        this.num = num;
-    }
-
-
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 
 
-    public Integer getFournisseurId() {
+    public int  getFournisseurId() {
         return fournisseurId;
     }
 
 
-    public void setFournisseurId(Integer fournisseurId) {
+    public void setFournisseurId(int fournisseurId) {
         this.fournisseurId = fournisseurId;
     }
 

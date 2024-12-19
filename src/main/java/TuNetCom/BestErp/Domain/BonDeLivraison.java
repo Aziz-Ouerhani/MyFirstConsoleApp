@@ -1,11 +1,10 @@
 package TuNetCom.BestErp.Domain;
 
-import java.sql.Date;
 import java.sql.Time;
+import java.util.Date;
 
-public class BonDeLivraison {
-    private int num;
-    private Date date;
+public final class BonDeLivraison extends Document {
+    private String date;
     private double totHTva;
     private double totTva;
     private double netPayer;
@@ -13,7 +12,7 @@ public class BonDeLivraison {
     private int numFacture;
     private int clientId;
 
-    public BonDeLivraison(int num, Date date, double totHTva, double totTva, double netPayer, Time tempBl, int numFacture, int clientId) {
+    public BonDeLivraison(int num, String date, double totHTva, double totTva, double netPayer, Time tempBl, int numFacture, int clientId) {
         this.num = num;
         this.date = date;
         this.totHTva = totHTva;
@@ -23,19 +22,12 @@ public class BonDeLivraison {
         this.numFacture = numFacture;
         this.clientId = clientId;
     }
-    public int getNum() {
-        return num;
-    }
 
-    public void setNum(int num) {
-        this.num = num;
-    }
-
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 
@@ -86,5 +78,6 @@ public class BonDeLivraison {
     public void setClientId(int clientId) {
         this.clientId = clientId;
     }
+
 }
 

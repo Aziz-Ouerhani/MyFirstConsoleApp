@@ -1,15 +1,11 @@
 package TuNetCom.BestErp.Domain;
 
-public class Client {
-    private int id ;
-    private String nom ;
-    private String tel ;
+public final class Client extends Tier {
     private String adress ;
     private String matricule ;
     private String code ;
     private String codeCat ;
     private String etbSec ;
-    private String mail ;
 
     public Client(int id, String nom, String tel, String adress, String matricule, String code, String codeCat, String etbSec, String mail) {
         this.id = id;
@@ -21,29 +17,6 @@ public class Client {
         this.codeCat = codeCat;
         this.etbSec = etbSec;
         this.mail = mail;
-    }
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getNom() {
-        return nom;
-    }
-
-    public void setNom(String nom) {
-        this.nom = nom;
-    }
-
-    public String getTel() {
-        return tel;
-    }
-
-    public void setTel(String tel) {
-        this.tel = tel;
     }
 
     public String getAdress() {
@@ -86,12 +59,8 @@ public class Client {
         this.etbSec = etbSec;
     }
 
-    public String getMail() {
-        return mail;
+    @Override
+    public String toString() {
+        return super.toString() + "** Client **" + this.adress + " " + this.code + " " + this.codeCat + " " + this.etbSec + " " + this.matricule + " " ;
     }
-
-    public void setMail(String mail) {
-        this.mail = mail;
-    }
-
 }
